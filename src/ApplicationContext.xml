@@ -11,4 +11,8 @@
         <constructor-arg ref="imfService"></constructor-arg>
     </bean>
 
+    <bean id="ranilHora" class="com.bootcamp.demo.Ranil">
+        <property name="imfService" ref="imfService"/>
+    </bean>
+
 </beans>
